@@ -27,4 +27,8 @@ Website developed from the following design file:
 
 3. Implement same design with scss
 
+## Public Github Pages Link
+
+[https://solomonbarayev.github.io/web_project_3/]
+
 ## Developer: Solomon Barayev
