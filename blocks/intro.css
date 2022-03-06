@@ -12,30 +12,38 @@
   max-width: 785px;
 }
 
-.intro__text {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.63;
-}
-
 .intro__text-container {
   display: flex;
   flex-direction: column;
   max-width: 720px;
 }
 
-.intro__text_type_quote {
+.intro__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.intro__quote {
+  margin: 0;
   font-size: 24px;
   line-height: 1.4;
   max-width: 720px;
   margin-bottom: 10px;
 }
 
-.intro__text_type_author {
+.intro__author {
+  margin: 0;
   align-self: flex-end;
   font-size: 24px;
   line-height: 1.4;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 441px) {
@@ -48,13 +56,14 @@
 @media screen and (max-width: 320px) {
   .intro {
     margin-bottom: 90px;
+    padding: 0 16px;
   }
 
   .intro__title {
     font-size: 32px;
     line-height: 1.093;
   }
-  .intro__text_type_quote {
-    line-height: 0.94;
+  .intro__quote {
+    line-height: 1.25;
   }
 }

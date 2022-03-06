@@ -17,12 +17,6 @@
   z-index: 1;
 }
 
-/*giving all children of .cover a higher z-index so they sit above .cover::after*/
-.cover > * {
-  z-index: 3;
-  position: relative;
-}
-
 .cover::after {
   content: "";
   display: block;
@@ -44,10 +38,14 @@
   font-size: 72px;
   line-height: 1.06;
   margin: 0 auto;
+  z-index: 3;
+  position: relative;
 }
 
 .cover__subtitle {
   margin: 0;
+  z-index: 3;
+  position: relative;
 }
 
 .cover__subtitle-linebreak {
@@ -63,6 +61,8 @@
   color: #fff;
   transition: all 0.2s ease-out;
   font-weight: 600;
+  z-index: 3;
+  position: relative;
 }
 
 .cover__button:hover {
@@ -72,7 +72,6 @@
 @media screen and (max-width: 768px) {
   .cover {
     width: 100vw;
-    left: -24px;
   }
   .cover::after {
     width: 100vw;
@@ -92,7 +91,6 @@
   .cover {
     margin-top: 64px;
     padding: 46px 0;
-    left: -16px;
     gap: 16px;
   }
   .cover__title {

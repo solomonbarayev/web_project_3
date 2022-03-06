@@ -4,13 +4,6 @@
   align-items: center;
 }
 
-.lead__logo-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 91px;
-}
-
 .lead__title {
   margin: 0 auto 32px;
   font-size: 96px;
@@ -18,6 +11,7 @@
   text-align: center;
   max-width: 800px;
   font-weight: 900;
+  padding: 0 24px;
 }
 
 .lead__subtitle {
@@ -26,17 +20,18 @@
   text-align: center;
   margin: 0 auto 64px;
   line-height: 1.2;
+  padding: 0 24px;
 }
 
 .lead__image {
   max-width: 984px;
   width: 100%;
-  margin-bottom: 94px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
   .lead__image {
-    width: calc(100% + 48px);
+    margin-bottom: 88px;
   }
 }
 
@@ -70,11 +65,13 @@
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 16px;
+    padding: 0 16px;
   }
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 40px;
+    padding: 0 16px;
   }
   .lead__image {
     width: 100vw;

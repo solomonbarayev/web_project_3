@@ -16,13 +16,22 @@
 
 @media screen and (max-width: 768px) {
   .places {
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .places__list {
     gap: 72px;
-    padding-top: 62px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
+    padding-top: 62px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .places__list {
     gap: 50px;
   }
 }
